@@ -20,7 +20,7 @@ app.use("/api/v1/subscription", subscriptionRouter);
 app.use(errorMiddleware);
 
 app.get("/", (req, res) => {
-  res.send("Esse é o app subscribe tracker.");
+  res.send("Esse é o app subscription tracker.");
 });
 
 app.listen(PORT, async () => {

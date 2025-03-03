@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
 
 app.listen(PORT, async () => {
   console.log(
-    "Subscriptiion Tracker API está rodando em: http://localhost:3000"
+    `Subscription Tracker API está rodando em: http://localhost:${PORT}`
   );
   await connectToDatabase();
 });
